@@ -11,7 +11,7 @@ class NavbarComp extends Component {
                 <Navbar bg="dark" variant="dark">
                     <Container>
                         <Nav className="navbar-nav">
-                            <Nav.Link as={Link} to={'/'}>Home</Nav.Link>
+                            <Nav.Link as={Link} to={'/ajin-portfolio-react/'}>Home</Nav.Link>
                             <Nav.Link as={Link} to={'/project'}>Projects</Nav.Link>
                             <Nav.Link as={Link} to={'/contact'}>Contact</Nav.Link>
                         </Nav>

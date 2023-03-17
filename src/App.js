@@ -15,7 +15,7 @@ const App = () => {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/ajin-portfolio-react/" element={<Home />} />
           <Route path="/project" element={<Project />} />
           <Route path="/project/:id" element={<ProjectDisplay />} />
           <Route path="/contact" element={<Contact />} />
